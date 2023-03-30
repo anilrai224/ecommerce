@@ -1,0 +1,21 @@
+.totalCart p{
+    width: 100%;
+    text-align: center;
+    padding-right: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.totalCart{
+    margin-bottom: 100px;
+}
+.checkOut{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.checkOut button{
+    padding: 5px 10px;
+    cursor: pointer;
+}

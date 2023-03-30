@@ -1,0 +1,26 @@
+.cartItems{
+    height: 170px;
+    display: flex;
+    margin: 20px 200px;
+    border: 2px solid black;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.cartItems .cartItemDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.cartItemDetail .cartItemDetailBtn{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.cartItemDetail .cartItemDetailBtn button{
+    height: max-content;
+    padding: 5px 10px;
+}

@@ -1,0 +1,22 @@
+nav{
+    background-color: black;
+    height: 15vh;
+    line-height: 15vh;
+}
+.navigation{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.navigation .logo{
+    font-size: 25px;
+    color: #fff;
+}
+.navigation .nav-list{
+    display: flex;
+    gap: 20px;   
+    font-size: 22px; 
+}
+.navigation .nav-links,.logo{
+    color: #fff;
+}

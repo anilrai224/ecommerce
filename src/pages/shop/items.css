@@ -1,0 +1,22 @@
+.items{
+    height: 340px;
+    width: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+.items p{
+    text-align: center;
+}
+.items img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.items .add-btn{
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+}
+.add-btn button{
+    cursor: pointer;
+}
